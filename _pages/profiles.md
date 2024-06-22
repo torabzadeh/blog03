@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: Wei_He.jpeg
-    content: people_wei.md
+    content: people_iman.md
     more_info: >
       <p>Wei He<p>
       <p>PhD 2022, Stanford University<p>
