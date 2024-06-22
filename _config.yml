@@ -3,22 +3,19 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Mark
-middle_name: P. M.
-last_name: Dean
-email: mdean@bnl.gov
+first_name: Hossein
+last_name: Torabzadeh
+email: torabzadeh@basu.ac.ir
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Resonant x-ray scattering on quantum materials at Brookhaven.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Design update from Qin Yao.
-keywords: Quantum materials, resonant inelastic x-ray scattering, ultrafast physics # add your own keywords or leave empty
+footer_text: #
+keywords: Remote sensing, GIS, Spatial science, Geomatics # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🛰️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: mpmdean.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
+url: torabzadeh.github.io # the base hostname & protocol for your site
+baseurl: /blog03 # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -66,16 +63,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: mpmdean # your GitHub user name
+github_username: torabzadeh # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
-scholar_userid: mpmdean@gmail.com # your Google Scholar ID
+telegram_username: htorabzadeh # your Telegram user name
+scholar_userid: mhmdUO0AAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: 0000-0001-5139-3543 # your ORCID ID
+orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -119,9 +116,10 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: # MPMD deleted blog to remove it # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: My notes # blog_name will be displayed in your blog page
+blog_nav_title: Blog # MPMD deleted blog to remove it # your blog must have a title for it to be displayed in the nav bar
+blog_nav_order: 5
+blog_description: #a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -255,7 +253,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, tag, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
@@ -265,8 +263,8 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
+display_tags: [] # ['formatting', 'images', 'links', 'math', 'code'] these tags will be displayed on the front page of your blog
+display_categories: ['remote-sensing', 'GIS', 'climate', 'vegetation'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
